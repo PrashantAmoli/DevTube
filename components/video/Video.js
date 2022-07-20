@@ -9,9 +9,9 @@ const Video = (props) => {
   console.log(JSON.stringify('Video Props: ', props));
   const { description, title, channelTitle, position, resourceId } =
     props?.videoData;
-  console.log(`*********************************`);
+  console.log(`*******************************`);
   console.log(JSON.stringify(props));
-  console.log(`*********************************`);
+  console.log(`*******************************`);
   const res = JSON.parse(resourceId);
 
   useEffect(() => {

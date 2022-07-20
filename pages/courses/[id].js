@@ -52,7 +52,7 @@ const Tutorial = ({ data }) => {
   let videoData = JSON.parse(data);
   videoData = JSON.parse(videoData.data);
   // videoData = JSON.parse(videoData.snippet);
-	// videoData
+	// videoData =
 
   useEffect(() => {
     setVideo(videoData);
@@ -63,7 +63,7 @@ const Tutorial = ({ data }) => {
       <h3>{JSON.stringify(videoData)}</h3>
       <h3>{typeof videoData}</h3>
       <h3>{typeof videoData.snippet}</h3>
-      <h3>{JSON.stringify(videoData.snippet)}</h3>
+      <h3>{JSON.stringify( videoData.snippet )}</h3>
 
       {/* <Video props={videoData} /> */}
     </section>
