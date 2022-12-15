@@ -1,21 +1,36 @@
 import Head from 'next/head';
-import Layout from '../components/layout/Layout.js';
-import Welcome from '../components/layout/Welcome.js';
-import styles from '../styles/Home.module.css';
-import Course from '../components/video/Course.js';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from '../components/Header';
+import Feed from '../components/Feed';
+import SearchResult from '../components/SearchResult';
+import VideoDetails from '../components/VideoDetails';
+import { AppContext } from '../context/contextApi';
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Head>
         <title>DevTube </title>
       </Head>
-
-      <Layout>
-        <Welcome />
-
-        {/* <Course /> */}
-      </Layout>
+      <Feed />
+      <AppContext>
+      </AppContext>
     </>
   );
-}
+};
+        // <BrowserRouter>
+        //   <div className="flex flex-col h-full">
+        //     <Header />
+        //     <Routes>
+        //       <Route path="/" exact element={<Feed />} />
+        //       <Route
+        //         path="/searchResult/:searchQuery"
+        //         element={<SearchResult />}
+        //       />
+        //       <Route path="/video/:id" element={<VideoDetails />} />
+        //     </Routes>
+        //   </div>
+        // </BrowserRouter>
+
+export default Home;
