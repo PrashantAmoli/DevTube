@@ -8,6 +8,11 @@ YouTube clone developed using React, Next, Tailwind, Context API, Rapid API, You
 
 ![DevTube1](https://user-images.githubusercontent.com/72202929/207957119-2dab244a-981c-49b8-a28b-b6ca8d8c031a.png)
 
-![DevTube2](https://user-images.githubusercontent.com/72202929/207957210-2a73ecc8-fc16-418f-89e3-79b2bb938789.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/72202929/207957210-2a73ecc8-fc16-418f-89e3-79b2bb938789.png" alt="DemoSS1" height="550" align="left" />
+<img src="https://user-images.githubusercontent.com/72202929/207957298-8c4a57c4-9c27-4f9a-a020-d8b79926a166.png" alt="DemoSS2" height="550" align="right" />
+</div> 
 
-![DevTube3](https://user-images.githubusercontent.com/72202929/207957298-8c4a57c4-9c27-4f9a-a020-d8b79926a166.png)
+<!-- ![DevTube2](https://user-images.githubusercontent.com/72202929/207957210-2a73ecc8-fc16-418f-89e3-79b2bb938789.png) -->
+
+<!-- ![DevTube3](https://user-images.githubusercontent.com/72202929/207957298-8c4a57c4-9c27-4f9a-a020-d8b79926a166.png) -->
